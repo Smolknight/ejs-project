@@ -1,0 +1,3 @@
+npm init -y
+npm i express ejs
+npm i -D nodemon
