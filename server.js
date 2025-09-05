@@ -23,6 +23,10 @@ app.get("/form", (req, res) => {
   res.render("form");
 }); //assign the /form endpoint and res.render('form')
 
+app.post("/form/new", (req, res) => {
+  console.log("recieved data", req.body);
+});
+
 app.get("/about", (req, res) => {
   res.render("about");
 });
